@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.12)  3 DEC 2013 10:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.12)  3 DEC 2013 11:21
 entering extended mode
  %&-line parsing enabled.
 **githubTutorial.tex
@@ -812,12 +812,22 @@ File: push.png Graphic file (type png)
 
  <./push.png (PNG copy)>] [10
 
-]
-<fork.png, id=296, 1079.03125pt x 583.17876pt>
-File: fork.png Graphic file (type png)
- <use fork.png> [11
+] [11
 
- <./fork.png (PNG copy)>]
+]
+<fork.png, id=326, 1079.03125pt x 583.17876pt>
+File: fork.png Graphic file (type png)
+ <use fork.png> [12
+
+ <./fork.png (PNG copy)>] [13
+
+] [14
+
+] [15
+
+] [16
+
+]
 \tf@nav=\write5
 \openout5 = `githubTutorial.nav'.
 
@@ -834,11 +844,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 12642 strings out of 495061
- 224568 string characters out of 1182621
+ 12684 strings out of 495061
+ 225478 string characters out of 1182621
  314508 words of memory out of 3000000
- 15465 multiletter control sequences out of 15000+50000
- 6709 words of font info for 24 fonts, out of 3000000 for 9000
+ 15496 multiletter control sequences out of 15000+50000
+ 7374 words of font info for 26 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,372b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
@@ -846,10 +856,11 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb>
-Output written on githubTutorial.pdf (11 pages, 536061 bytes).
+s/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi
+12.pfb>
+Output written on githubTutorial.pdf (16 pages, 575698 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

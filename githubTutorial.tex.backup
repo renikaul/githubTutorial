@@ -102,13 +102,7 @@ Okay. Now we have Git on our machines and GitHub accounts.
 \end{itemize}
 \end{block}
 
-\begin{block}{Pulling files from GitHub}
-Two ways:
-\begin{itemize}
- \item If you aren't Fork the repository
- \item 
-\end{itemize}
-\end{block}
+
 \end{frame}
 
 
@@ -136,7 +130,7 @@ Two ways:
 \begin{block}{}
  \begin{enumerate}
   \item Edit your files locally
-  \item \$ git add *your files*
+  \item \$ git add *files in your local directory*
   \item \$ git commit -m ``message about this commit''
   \item \$ git push origin master 
  \end{enumerate}
@@ -145,11 +139,46 @@ This skips the \textit{git remote add origin 'your repo'} step, as you do this o
 \end{frame}
 
 
+\begin{frame}
+\frametitle{How to collaborate using GitHub}
+Up to this point, it's been a solitary experience of \textbf{making} and \textbf{pushing} \\
+ \begin{block}{Methods of collaboration}
+Two ways:
+\begin{itemize}
+ \item \textbf{'Fork and Pull' model} : better
+ \item \textbf{'Shared Repository' model} : easier
+\end{itemize}
+\end{block}
+
+\begin{alertblock}{Pulling files from GitHub}
+ \begin{itemize}
+  \item cd to local repository
+  \item \$ git remove -v  \ \ \  should output the .git repo you want to push/pull to/from. If not, git remote add 'http://github.com/yourname/yourproject.git'
+  \item \$ git checkout \ \ \ have the files changed?
+  \item \$ git pull . \ \ \ pulls and merges files
+ \end{itemize}
+\end{alertblock}
+\end{frame}
+
 
 \begin{frame}
- \frametitle{Forking a repo}
+ \frametitle{Forking a repo \textit{from} GitHub}
  \includegraphics[width=\textwidth]{fork.png}\\
 \end{frame}
+
+\begin{frame}
+ \frametitle{Forking from command-line}
+
+ \$ git clone git://github.com/somename/someproject.git someproject \\
+\vspace{1cm}
+\#This initializes a new local directory on your machine in a folder called 'someproject' \\
+
+
+ 
+\end{frame}
+
+
+
 
 
 
