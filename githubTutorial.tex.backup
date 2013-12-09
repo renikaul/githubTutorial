@@ -36,18 +36,18 @@ December 2013 \\
 
 \begin{frame}
  \frametitle{What is GitHub?}
-``Dropbox on crack''\\
+
 Code sharing, publishing and development service for collaborative projects
 
-\begin{block}{Why use it?}
+\begin{exampleblock}{Why use it?}
  \begin{itemize}
   \item Version control 
   \item Open collaboration with other scientists
   \item Creepily watch what other people are working on!
  \end{itemize}
-\end{block}
+\end{exampleblock}
 
-
+\pause
 \begin{block}{Under the hood}
  \begin{itemize}
   \item Git is the version control language that GitHub is the GUI for
@@ -74,10 +74,6 @@ Code sharing, publishing and development service for collaborative projects
 
 
 
-
-
-
-
 \begin{frame}
  \frametitle{How to begin}
 \begin{enumerate}
@@ -90,6 +86,9 @@ Code sharing, publishing and development service for collaborative projects
 \end{enumerate}
 Okay. Now we have Git on our machines and GitHub accounts.
 \end{frame}
+
+
+
 
 \begin{frame}
  \frametitle{The GitHub framework}
@@ -108,7 +107,21 @@ Okay. Now we have Git on our machines and GitHub accounts.
 
 \begin{frame}
  \frametitle{\textbf{Make your directory}}
- \includegraphics[width=\textwidth]{mkdir.png}\\
+% \includegraphics[width=\textwidth]{mkdir.png}\\
+\textbf{Sets up local directory} \\
+\begin{quote}
+  \$ cd \textit{folder you want your directory in} \\
+\$ mkdir \textit{directory name} \\
+\$ cd \textit{your project directory} \\
+\end{quote}
+
+\textbf{Initializes git in that directory}
+\begin{quote}
+ \$ git init
+\end{quote}
+
+
+
 \end{frame}
 
 
@@ -135,7 +148,8 @@ Okay. Now we have Git on our machines and GitHub accounts.
   \item \$ git push origin master 
  \end{enumerate}
 \end{block}
-This skips the \textit{git remote add origin 'your repo'} step, as you do this once per repo. 
+This skips the \textit{git remote add origin 'your repo'} step, as you do this once per repo.\\
+Also, steps 2 and 3 can be combined using \$ git commit -a -m 'message about commit' 
 \end{frame}
 
 
@@ -153,9 +167,8 @@ Two ways:
 \begin{alertblock}{Pulling files from GitHub}
  \begin{itemize}
   \item cd to local repository
-  \item \$ git remove -v  \ \ \  should output the .git repo you want to push/pull to/from. If not, git remote add 'http://github.com/yourname/yourproject.git'
-  \item \$ git checkout \ \ \ have the files changed?
-  \item \$ git pull . \ \ \ pulls and merges files
+  \item \$ git remote -v  \ \ \  outputs the .git repos you can push/pull to/from. Use \$ git remote add 'http://github.com/name/project.git' if necessary
+  \item \$ git pull . \ \ \ fetches and merges files
  \end{itemize}
 \end{alertblock}
 \end{frame}
@@ -173,12 +186,29 @@ Two ways:
 \vspace{1cm}
 \#This initializes a new local directory on your machine in a folder called 'someproject' \\
 
-
- 
 \end{frame}
 
 
+\begin{frame}
+ \frametitle{Some useful commands}
 
+\textbf{Check status} : \\ \$ git status \vspace{0.5cm}
+
+\textbf{See your remote locations you can pull from (and the master you can push to)} : \\ \$ git remote -v \vspace{0.5cm}
+
+\textbf{View commit history} : \\ \$ git log \vspace{0.5cm}
+
+\textbf{Revert to previous version since last commit}:  \\ \$ git checkout -- \textit{filename}
+
+\end{frame}
+
+
+\begin{frame}
+ \huge Questions?  \\
+\vspace{1cm}
+\pause
+\normalsize Let's now look at the user interface of GitHub and play around a bit 
+\end{frame}
 
 
 

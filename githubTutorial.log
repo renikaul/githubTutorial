@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.12)  3 DEC 2013 11:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.12)  9 DEC 2013 12:54
 entering extended mode
  %&-line parsing enabled.
 **githubTutorial.tex
@@ -785,47 +785,39 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [3
 
-] <config.png, id=115, 633.36626pt x 163.61125pt>
+] [4
+
+] <config.png, id=144, 633.36626pt x 163.61125pt>
 File: config.png Graphic file (type png)
 
-<use config.png> [4
+<use config.png> [5
 
  <./config.png (PNG copy)>]
 File: config.png Graphic file (type png)
- <use config.png> [5
+ <use config.png> [6
 
-] [6
+] [7
 
 ]
-<mkdir.png, id=192, 643.40375pt x 136.51pt>
-File: mkdir.png Graphic file (type png)
- <use mkdir.png> [7
+[8
 
- <./mkdir.png (PNG copy)>] <add.png, id=219, 644.4075pt x 125.46875pt>
-File: add.png Graphic file (type png)
- <use add.png> [8
+] [9
 
- <./add.png (PNG copy)>] <push.png, id=245, 644.4075pt x 117.43875pt>
-File: push.png Graphic file (type png)
- <use push.png>
-[9
-
- <./push.png (PNG copy)>] [10
+] [10
 
 ] [11
 
-]
-<fork.png, id=326, 1079.03125pt x 583.17876pt>
-File: fork.png Graphic file (type png)
- <use fork.png> [12
+] [12
 
- <./fork.png (PNG copy)>] [13
+] [13
 
 ] [14
 
 ] [15
 
 ] [16
+
+] [17
 
 ]
 \tf@nav=\write5
@@ -844,23 +836,25 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 12684 strings out of 495061
- 225478 string characters out of 1182621
+ 12700 strings out of 495061
+ 226182 string characters out of 1182621
  314508 words of memory out of 3000000
- 15496 multiletter control sequences out of 15000+50000
- 7374 words of font info for 26 fonts, out of 3000000 for 9000
+ 15513 multiletter control sequences out of 15000+50000
+ 7015 words of font info for 25 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,16n,57p,372b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi
-12.pfb>
-Output written on githubTutorial.pdf (16 pages, 575698 bytes).
+ 45i,16n,63p,372b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation18} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmssi10.pfb>
+Output written on githubTutorial.pdf (17 pages, 257914 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

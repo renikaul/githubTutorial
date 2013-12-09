@@ -36,18 +36,18 @@ December 2013 \\
 
 \begin{frame}
  \frametitle{What is GitHub?}
-``Dropbox on crack''\\
+
 Code sharing, publishing and development service for collaborative projects
 
-\begin{block}{Why use it?}
+\begin{exampleblock}{Why use it?}
  \begin{itemize}
   \item Version control 
   \item Open collaboration with other scientists
   \item Creepily watch what other people are working on!
  \end{itemize}
-\end{block}
+\end{exampleblock}
 
-
+\pause
 \begin{block}{Under the hood}
  \begin{itemize}
   \item Git is the version control language that GitHub is the GUI for
@@ -74,10 +74,6 @@ Code sharing, publishing and development service for collaborative projects
 
 
 
-
-
-
-
 \begin{frame}
  \frametitle{How to begin}
 \begin{enumerate}
@@ -90,6 +86,9 @@ Code sharing, publishing and development service for collaborative projects
 \end{enumerate}
 Okay. Now we have Git on our machines and GitHub accounts.
 \end{frame}
+
+
+
 
 \begin{frame}
  \frametitle{The GitHub framework}
@@ -108,19 +107,46 @@ Okay. Now we have Git on our machines and GitHub accounts.
 
 \begin{frame}
  \frametitle{\textbf{Make your directory}}
- \includegraphics[width=\textwidth]{mkdir.png}\\
+% \includegraphics[width=\textwidth]{mkdir.png}\\
+\textbf{Sets up local directory} \\
+\begin{quote}
+  \$ cd \textit{folder you want your directory in} \\
+\$ mkdir \textit{directory name} \\
+\$ cd \textit{your project directory} \\
+\end{quote}
+
+\textbf{Initializes git in that directory}
+\begin{quote}
+ \$ git init
+\end{quote}
+Do some stuff in the directory!
 \end{frame}
 
 
+
 \begin{frame}
-\frametitle{\textbf{Commit your README file}}
- \includegraphics[width=\textwidth]{add.png}\\
+\frametitle{\textbf{Committing changes}}
+  From within your local directory
+  \begin{quote}
+    \$ git remote add origin https://github.com/yourname/yourproject.git \\
+    \$ git commit -a -m ``message associated with your commit''
+  \end{quote}
+  \pause
+  Only need to do the \textbf{git remote add} command once. You can check to see what your remote locations are by typing \begin{quote}
+                                                                                                                           git remote -v
+                                                                                                                          \end{quote}
+from within your local directory. 
+% \includegraphics[width=\textwidth]{add.png}\\
 \end{frame}
 
 
 \begin{frame}
 \frametitle{\textbf{Push it!}}
- \includegraphics[width=\textwidth]{push.png}\\
+ \begin{quote}
+  \$ git push origin master
+ \end{quote}
+
+% \includegraphics[width=\textwidth]{push.png}\\
 \end{frame}
 
 
@@ -130,13 +156,11 @@ Okay. Now we have Git on our machines and GitHub accounts.
 \begin{block}{}
  \begin{enumerate}
   \item Edit your files locally
-  \item \$ git add *files in your local directory*
-  \item \$ git commit -m ``message about this commit''
+  %\item \$ git add *files in your local directory*
+  \item \$ git commit -a -m ``message about this commit''
   \item \$ git push origin master 
  \end{enumerate}
 \end{block}
-This skips the \textit{git remote add origin 'your repo'} step, as you do this once per repo.\\
-Also, steps 2 and 3 can be combined using \$ git commit -a -m 'message about commit' 
 \end{frame}
 
 
@@ -192,6 +216,8 @@ Two ways:
 
 \begin{frame}
  \huge Questions?  \\
+\vspace{1cm}
+\pause
 \normalsize Let's now look at the user interface of GitHub and play around a bit 
 \end{frame}
 
