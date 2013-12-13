@@ -59,14 +59,44 @@ Code sharing, publishing and development service for collaborative projects
 
 
 \begin{frame}
+ \frametitle{...but why can't I just use Dropbox?}
+\begin{block}{Git is different}
+  \begin{itemize}
+    \item Actual version control
+    \item Forking
+    \item Open collaboration, open science
+    \item No limit 
+  \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+ \frametitle{...but why can't I just use Subversion?}
+\begin{block}{Git is not that different}
+  \begin{itemize}
+    \item A bit more popular (if that means anything)
+    \item Git can talk to Subversion though
+  \end{itemize}
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}
  \frametitle{A couple quick definitions}
   \begin{itemize}
     \item \textbf{Repository}: Storage space where your projects reside
+    \pause
     \item \textbf{Commit}: Takes 'snapshot' of your repository, so you can log a new change, or revert to a previous state (Common command)
+    \pause
     \item \textbf{Branch}: Think of a folder within a repository, but cooler. More on this later
+    \pause
     \item \textbf{Fork}: What it sounds like. You're taking someone's project and making a copy of it for your own use (either to collaborate and to merge later or to use as a template for a different project)
+    \pause
     \item \textbf{Push}: The act of updating your project files (you will ``push'' your \textbf{commits})
+    \pause
     \item \textbf{Pull}: Gets commits from a repository to your machine
+    \pause
     \item \textbf{Fetch}: A better version of \textbf{pull} that doesn't merge \textbf{commits}
   \end{itemize}
   \end{frame}
@@ -174,7 +204,7 @@ Two ways:
  \item \textbf{'Shared Repository' model} : easier
 \end{itemize}
 \end{block}
-
+\pause
 
 \begin{alertblock}{Pulling files from GitHub}
  \begin{itemize}
@@ -195,7 +225,7 @@ Two ways:
 %\end{frame}
 
 \begin{frame}
- \frametitle{Forking from command-line}
+ \frametitle{Cloning...like forking, but sneakier}
 
  \$ git clone git://github.com/somename/someproject.git someproject \\
 \vspace{1cm}
@@ -207,15 +237,13 @@ Two ways:
 \begin{frame}
  \frametitle{Some useful commands}
 
-\textbf{Check status} : \\ \$ git status \vspace{0.5cm}
-
-\textbf{See your remote locations} : \\ \$ git remote -v \vspace{0.5cm}
-
-\textbf{View commit history} : \\ \$ git log \vspace{0.5cm}
-
-\textbf{Revert to previous version since last commit}:  \\ \$ git checkout -- \textit{filename}
-
-\textbf{See a log of all changes}: \\ \$git log 
+\textbf{Check status} : \\ \$ git status \vspace{0.5cm} \\
+    \pause
+\textbf{See your remote locations} : \\ \$ git remote -v \vspace{0.5cm} \\
+    \pause
+\textbf{View commit history} : \\ \$ git log \vspace{0.5cm} \\
+    \pause
+\textbf{Revert to previous version since last commit}:  \\ \$ git checkout -- \textit{filename} 
 
 \end{frame}
 
@@ -225,19 +253,11 @@ Two ways:
 \begin{frame}
 \huge Questions?  \\
 \vspace{1cm}
+\includegraphics[width=0.3\textwidth]{ceesglogo.png}
+\hfill \includegraphics[width=0.4\textwidth]{github-logo.png}\\
 \pause
-\normalsize Let's now look at the user interface of GitHub and play around a bit 
+\normalsize Now let's look at the user interface of GitHub and play around a bit 
 \end{frame}
-
-
-
-
-
-
-
-
-
-
 
 
 \end{document}
